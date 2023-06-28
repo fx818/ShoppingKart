@@ -1,0 +1,44 @@
+html{
+    color: white;
+    background-image: linear-gradient(to top, black ,rgb(16, 54, 54),black,rgb(31, 65, 97),black,rgb(10, 101, 117));
+}
+
+
+div h1{
+    text-align: center;
+}
+div img{
+    height: 8rem;
+    border-radius: 4rem;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    color: red;
+}
+.data{
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-content: center; */
+    font-size: 1.2rem;
+    border: 3px solid blue;
+    /* text-align: center; */
+    padding-left: 2rem;
+    padding-right:2rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-radius: .5rem;
+}
+
+
+.home{
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    height: 3.5rem;
+}

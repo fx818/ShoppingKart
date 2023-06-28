@@ -1,0 +1,58 @@
+
+html{
+    border: 8px solid rgb(0, 113, 148);
+    height: 98vh;
+    background-image: linear-gradient(to bottom, rgb(0, 174, 255),rgb(26, 235, 148)) ;
+}
+
+
+.textnimg{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 11%;
+}
+
+.textnimg img{
+    height: 4.5rem;
+}
+.textnimg h1{
+    text-shadow: 2px 3px rgb(18, 233, 204);
+}
+
+.heading-text{
+    margin-top: 1%;
+}
+
+.heading-text h1{
+    border-bottom: 2.5px solid blue;
+    width: fit-content;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+}
+div p{
+    font-size: 1.4rem;
+    border: 2px solid rgb(0, 247, 255);
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: fit-content;
+    border-radius: .3rem;
+    box-shadow: 10px 10px rgb(0, 255, 191);
+}
+div p:hover{
+    background-image: linear-gradient(to right , rgb(0, 174, 255),rgb(26, 235, 148));
+    border: 2px solid rgb(2, 225, 255);
+    border-radius: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .7rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}

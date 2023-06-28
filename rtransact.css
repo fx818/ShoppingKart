@@ -1,0 +1,27 @@
+html{
+    border: 7px solid rgb(18, 199, 223);
+    height: 98vh;
+}
+
+.heading h1{
+    border-bottom: 2px solid black;
+    width: fit-content;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.transactions p{
+    color: rgb(22, 37, 51);
+    font-size: 1.1rem;
+    font-weight: 600;
+    position: absolute;
+    top: 40vh;
+    left: 42vw;
+}
+.home img{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    height: 3.3rem;
+}

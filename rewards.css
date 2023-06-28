@@ -1,0 +1,25 @@
+.imgntext{
+    display: flex;
+    padding-left: 2%;
+}
+.imgntext h1{
+    font-size: 2.5rem;
+}
+
+.imgntext .rewardimg{
+    height: 6rem;
+    margin-top: 1%;
+}
+
+div p{
+    font-size: 1.1rem;
+    font-weight: 545;
+    text-align: center;
+    margin-top: 10%;
+}
+div .home{
+    height: 3.4rem;
+    position: absolute;
+    top: 4%;
+    right: 4%;
+}

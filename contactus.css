@@ -1,0 +1,13 @@
+html{
+    background-image: linear-gradient(to right , rgb(0, 217, 255) , rgb(51, 163, 145));
+}
+
+.heading-text h1{
+    padding-left: 3%;
+}
+
+input{
+    border: 0;
+    height: 20rem;
+    width: 40rem;
+}

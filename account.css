@@ -1,0 +1,82 @@
+section div h1{
+    font-size: 2.3rem;
+}
+
+.user-image img{
+    margin-top: -1.3rem;
+    height: 8rem;
+}
+
+.details{
+    border: 2px solid black;
+    width: 75%;
+    /* text-align: center; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.download-data{
+    width: fit-content;
+    padding: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-image: linear-gradient(to right, rgb(0, 38, 255), rgb(38, 210, 216));
+    color: white;
+}
+.remove-account{
+    width: fit-content;
+    padding: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background-image: linear-gradient(to right, rgb(0, 38, 255), rgb(38, 210, 216));
+    color: white;
+}
+
+.download-data:hover{
+    background-image: linear-gradient(to right , rgb(38, 210, 216), rgb(0, 38, 255));
+    border: 0;
+    cursor: -webkit-grabbing;
+}
+.remove-account:hover{
+    background-image: linear-gradient(to right , red, rgb(48, 4, 4));
+    cursor: grab;
+    /* border: 0; */
+    /* background-color: red; */
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* gap: 20vw; */
+    /* margin-left: 0vw; */
+    margin-top: .7rem;
+    /* white-space: nowrap; */
+}
+
+p a{
+    text-decoration: none;
+    color: inherit;
+}
+p{
+    border: 2px solid black;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: .5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: .34rem;
+}
+p:hover{
+    color: black;
+    background-color: white;
+    border-radius: .6rem;
+    
+}
+
+@media (max-width:575px) {
+    .details{
+        grid-template-columns: 1fr;
+    }
+}

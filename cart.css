@@ -1,0 +1,52 @@
+html{
+    border: 10px solid rgb(2, 145, 137);
+    /* height: 97.5%; */
+    height: 100vh;
+}
+
+.textnimg{
+    /* display: flex; */
+    margin-top: 1.2rem;
+}
+.textnimg h1{
+    font-size: 2rem;
+    margin-top: -1%;
+    border-bottom: 2px solid black;
+    width: fit-content;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: .2rem;
+}
+
+.cart-msg{
+    text-align: center;
+    margin-top: 15%;
+    text-decoration: none;
+}
+
+.add-now{
+    border-bottom: 2px solid black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: .2rem;
+    width: fit-content;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.profile{
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    height: 3rem;
+}
+
+.homepage{
+    position: absolute;
+    top: 1.5rem;
+    right: 6rem;
+    height: 3rem;
+}

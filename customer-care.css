@@ -1,0 +1,48 @@
+html{
+    background-image: linear-gradient(to bottom , rgb(12, 187, 211) , rgb(13, 133, 144));
+    height: 100%;
+}
+
+.heading h1{
+    /* padding-left: 2rem; */
+    font-size: 2.1rem;
+    margin-top: 3%;
+    text-align: center;
+}
+.details{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+.details p{
+    font-size: 1.6rem;
+    font-weight: 650;
+}
+.details a , address{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+/* .mail{
+    
+    position: absolute;
+    left: 2%;
+} */
+
+.mailimg{
+    display: flex;
+    /* gap: 2rem; */
+}
+.mailimg img{
+    /* height: 3.5rem; */
+    width: 4rem;
+    padding-right: 2%;
+    margin-left: 5%;
+}
+
+.home{
+    position: absolute;
+    top: 4%;
+    right: 6%;
+    height: 3.6rem;
+}
