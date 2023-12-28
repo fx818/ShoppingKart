@@ -201,12 +201,12 @@ header {
         transform: translateY(0%);
     }
 }
-
+/* 
 .heading-for-product {
     animation-name: animation1;
     animation-duration: .3s;
     animation-iteration-count: infinite;
-}
+} */
 
 .trending-section {
     display: flex;
